@@ -1,0 +1,22 @@
+<template>
+  <div
+    class="
+      bg-purple-500
+      text-white
+      p-4
+      text-xl
+      rounded-2xl
+      md:hover:bg-purple-700
+      transition
+      duration-200
+      ease-in-out
+      flex
+      items-center
+      justify-center
+      cursor-pointer
+    "
+    @click="$emit('click')"
+  >
+    <slot />
+  </div>
+</template>
